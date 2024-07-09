@@ -1,0 +1,87 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.swiper-wrapper {
+  display: flex;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.swiper-button-prev:after {
+  font-size: 20px !important;
+  color: gray;
+  margin-right: 30px;
+}
+
+.swiper-button-next:after {
+  font-size: 20px !important;
+  color: gray;
+  margin-left: 30px;
+}
+
+.imgcarusel {
+  max-width: 60px;
+  width: 100%;
+  margin: auto;
+}
+
+.sar {
+  font-size: 20px;
+  color: black;
+}
+
+.sar:hover{
+  color: gray;
+}
+
+@media only screen and (max-width: 500px) {
+
+  .sar {
+    font-size: 12px;
+  }
+
+  .imgcarusel {
+    max-width: 35px;
+    width: 100%;
+    margin: auto;
+  }
+}
+
+
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+
+.generalcarusel {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.topbar{
+  border-bottom: 1px solid gray;
+  position: relative;
+  z-index: 0;
+}
